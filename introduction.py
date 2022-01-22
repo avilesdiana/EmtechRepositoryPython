@@ -51,6 +51,7 @@ print(division_entera1) #print 9 to 9.666
 
 """
 
+"""->
 #Class Textos
 
 mi_cadena = "Hola mundo"
@@ -66,9 +67,15 @@ cadena_con_comillas2 = "Diana dijo: \"Hola mundo 2\""
 print(cadena_con_comillas2)
 
 #Multilinea
-multilinea = """Hola, bienvenida
+->"""
 
-A tu curso de python
+
+#multilinea = """Hola, bienvenida
+
+#A tu curso de python
+#"""
+
+
 """
 print(multilinea)
 
@@ -80,3 +87,6 @@ print(union_cadenas)
 age = 23
 number_string = str(age)
 print("Tu edad es: " + number_string)
+"""
+
+#Class Index and Slicing
