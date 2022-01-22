@@ -107,7 +107,7 @@ print(palabra[2:4])
 cadena_larga = "Mi nombre es Diana Aviles"
 print(len(cadena_larga))
 """
-
+""""
 #List
 productos = ["Cereal", "Leche", "Jugo"]
 numeros = [1, 2, 3]
@@ -134,3 +134,4 @@ print(husbandos)
 #Eliminar de la lista
 husbandos.remove(["Inuyasha",50])
 print(husbandos)
+""""
