@@ -134,4 +134,4 @@ print(husbandos)
 #Eliminar de la lista
 husbandos.remove(["Inuyasha",50])
 print(husbandos)
-""""
+"""
