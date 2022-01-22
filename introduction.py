@@ -135,3 +135,4 @@ print(husbandos)
 husbandos.remove(["Inuyasha",50])
 print(husbandos)
 """
+#Input Function
