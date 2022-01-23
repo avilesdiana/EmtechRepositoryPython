@@ -153,5 +153,6 @@ print( valor * 7 )
 
 valor_float = float(input("Ingresa un número flotante: "))
 print( valor_float * 7 )
+"""
 
-""""
+#Booleanos y Comparaciones
