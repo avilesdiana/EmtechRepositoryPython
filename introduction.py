@@ -135,6 +135,8 @@ print(husbandos)
 husbandos.remove(["Inuyasha",50])
 print(husbandos)
 """
+
+"""
 #Input Function
 lista_productos = ["Agua"]
 
@@ -151,3 +153,5 @@ print( valor * 7 )
 
 valor_float = float(input("Ingresa un número flotante: "))
 print( valor_float * 7 )
+
+""""
