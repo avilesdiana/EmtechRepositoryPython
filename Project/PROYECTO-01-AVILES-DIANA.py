@@ -1,6 +1,6 @@
 import os #Clase para limpiar pantalla
 import getpass #Clase para que la contraseña no aparezca en consola
-import time
+import time #Clase para pausar tiempo en la consola
 
 #Función para limpiar pantalla
 def clearConsole():
