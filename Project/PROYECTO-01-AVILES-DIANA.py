@@ -50,6 +50,22 @@ def wrong_Value(optionText):
   print('\n    Opción INCORRECTA')
   print('\nIngrese un valor de '+ optionText+' válido')
 
+#Función para mostrar el inicio de sesión
+def log_In():
+  clearConsole()
+  print('Iniciando sesión de LIFESTORE .')
+  time.sleep(1)
+  clearConsole()
+  print('Iniciando sesión de LIFESTORE ..')
+  time.sleep(1)
+  clearConsole()
+  print('Iniciando sesión de LIFESTORE ...')
+  time.sleep(1)
+  clearConsole()
+  print('Iniciando sesión de LIFESTORE ....')
+  time.sleep(1)
+  clearConsole()
+
 #Inicializando el contador para la evaluación
 validation_Count = 0
 validation_Menu = 0
@@ -73,9 +89,9 @@ while validation_Count == 0 and session_error != 0:
 
     if password_Access == password_Login:
       clearConsole() #Limpiar consola
-      print('\nACCESO OTORGADO')
       #Al ser diferente de 0 sale del ciclo while
       validation_Count += 1
+      log_In()
       clearConsole()
       
       #validación del menú, mientras el contador == 0 lo seguirá repitiendo
