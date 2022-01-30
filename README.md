@@ -3,6 +3,7 @@
 
 **Tutor: Jaime Saúl Alonso Sánchez**
 
+------------
 ### Parte 1 - Fundamentos de programación en Python
 -------------
 
@@ -13,7 +14,7 @@
 https://replit.com/join/dfxddpchbr-avilesdiana
 
 
-
+------------
 
 ### Parte 2 - Introducción Manejo y Manipulación de datos
 -------------
