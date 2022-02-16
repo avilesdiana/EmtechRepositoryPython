@@ -28,3 +28,22 @@ def mostrar_info(pais):
 
 for pais in paises:
   mostrar_info(pais)
+
+
+#Ejemplo
+print(".")
+def operacion(numero):
+  return numero, numero*2, numero*3
+
+print(operacion(2))
+
+#Ejemplo
+
+valor = 15
+
+def sumar(a,b):
+ suma = a + b
+ return valor + suma
+
+resultado = sumar(10,5)
+print(resultado*2)
