@@ -7,8 +7,8 @@ print('Manejo de Archivos')
 #open(path)
 #Lo más recomendable es tenerlo en la misma carpeta
 
-path = '/Users/dianalaura/Desktop/Emtech/EmtechRepositoryPython/Part2/informacion.txt'
-path2 = '/Users/dianalaura/Desktop/Emtech/EmtechRepositoryPython/Part2/archivo_escritura1.txt'
+path = '/Users/dianalaura/Desktop/Emtech/EmtechRepositoryPython/Part2/archivos txt/informacion.txt'
+path2 = '/Users/dianalaura/Desktop/Emtech/EmtechRepositoryPython/Part2/archivos txt/archivo_escritura1.txt'
 archivo = open(path,'r')
 
 
@@ -51,7 +51,7 @@ escribir_archivo.close()
 
 #Agregar
 escribir_archivo = open(path2,'a')
-nuevo_dato = input("Ingres anueva información: ")
+nuevo_dato = input("Ingresa nueva información: ")
 escribir_archivo.write('\n' + nuevo_dato)
 
 escribir_archivo.close()
