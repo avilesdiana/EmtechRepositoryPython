@@ -7,8 +7,9 @@ print('Manejo de Archivos')
 #open(path)
 #Lo más recomendable es tenerlo en la misma carpeta
 
-
-archivo = open('informacion.txt','r')
+path = '/Users/dianalaura/Desktop/Emtech/EmtechRepositoryPython/Part2/informacion.txt'
+path2 = '/Users/dianalaura/Desktop/Emtech/EmtechRepositoryPython/Part2/archivo_escritura1.txt'
+archivo = open(path,'r')
 
 
 """
@@ -36,7 +37,7 @@ archivo.close()
 
 
 #Escribir archivo
-escribir_archivo = open('archivo_escritura1.txt','w')
+escribir_archivo = open(path2,'w')
 
 escribir_archivo.write("Exportaciones realizadas por pais: \n")
 
@@ -49,7 +50,7 @@ escribir_archivo.writelines(lista_contenido)
 escribir_archivo.close()
 
 #Agregar
-escribir_archivo = open('archivo_escritura1.txt','a')
+escribir_archivo = open(path2,'a')
 nuevo_dato = input("Ingres anueva información: ")
 escribir_archivo.write('\n' + nuevo_dato)
 
